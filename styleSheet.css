@@ -1,0 +1,37 @@
+.container{
+    background-color: #E3DBCD;
+    width:500px;
+    height:730px;
+}
+
+.title{
+   color: #260311;
+}
+
+.petView{
+    background-color: #d7b7c7;
+}
+
+.buttBar{
+    background-color: #d7b7c7;
+    align-items:center;
+}
+
+button {
+    background-color: #9e5276;
+    color: #f5edf2;
+    padding: 4px 9px;
+    border: solid;
+    border-color: #b87a9a;
+    border-radius: 8px;
+    border-width: 3px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+body{
+    background-color: #D7B7C7;
+    color:#f5edf2;
+    align-items: center;
+}
