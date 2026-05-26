@@ -1,20 +1,75 @@
 .container{
-    background-color: #E3DBCD;
     width:500px;
     height:730px;
 }
 
 .title{
-   color: #260311;
+   font-family:futura;
+   font-weight: bold;
+   padding-left: 25px;
+   opacity: 23%;
 }
 
 .petView{
-    background-color: #d7b7c7;
+    margin:25px 0 0 10px;
 }
 
 .buttBar{
-    background-color: #d7b7c7;
     align-items:center;
+}
+
+.stats {
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.statRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.statLabel {
+    width: 30px;
+    font-weight: bold;
+    color:#b87a9a;
+    font-size: 20px;
+}
+
+.barBg {
+    flex: 1;
+    background-color: #c9a3b8;
+    border-radius: 6px;
+    height:12px;
+    overflow:hidden;
+}
+
+.bar {
+    height: 100%;
+    border-radius: 6px;
+    transition: width 0.3s ease;
+}
+
+.hpBar { background-color: #e05c7a; width: 100%; }
+
+.xpBar { background-color: #7a5ce0; width: 100%; }
+
+.apBar { background-color: #5ca8e0; width: 50%; }
+
+.statVal {
+    width: 30px;
+    text-align: right;
+    color: #260311;
+    font-size: 12px;
+}
+
+.scoreRow {
+    color: #260311;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 4px;
 }
 
 button {
@@ -31,7 +86,12 @@ button {
 }
 
 body{
-    background-color: #D7B7C7;
+    padding:50px 50px 50px 50px ;
+    background-image: url('backgroundTransparent.png');
+    background-position: center;
+    background-color:#c7c4ee;
+    background-repeat:space;
+    background-size:contain;
     color:#f5edf2;
     align-items: center;
 }
