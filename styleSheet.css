@@ -1,3 +1,4 @@
+/* Container holds entire visuals */
 .container{
     max-height:fit-content;
     max-width:fit-content;
@@ -6,6 +7,7 @@
     background-image: url('base.png');
 }
 
+/* Pet Name posted at top */
 .title{
    font-family:futura;
    margin: 25px;
@@ -16,12 +18,15 @@
    border-radius: 10px;
 }
 
+/* Location and settings of current image of pet in use*/
 .petView{
     display: block;
     width: 50%;
     margin: 150px auto 45px auto; 
 }
 
+
+/* Container for all buttons */
 .buttBar{
     margin: 8px auto 1px auto;
     display:block;
@@ -31,6 +36,7 @@
     margin-right:auto;
 }
 
+/* Container for all status bars */
 .stats {
     max-width: 400px;
     flex-direction:column;
@@ -39,7 +45,7 @@
     vertical-align: auto;
 }
 
-
+/* Background of status bars */
 .barBg {
     flex: 1;
     background-color: #a19ed4c2;
@@ -49,25 +55,20 @@
     margin-top: 26px;
 }
 
+/* Status bar visual constraints */
 .bar {
+    width: 100%;
     height: 100%;
     border-radius: 6px;
     transition:  0.3s ease;
 }
 
-.hpBar { background-color: #e05ce0f3; width: 100%; }
+/* Specific status bar colors*/
+.hpBar { background-color: #e05ce0f3;}
+.xpBar { background-color: #7b5ce0f3;}
+.apBar { background-color: #5c8ce0f3;}
 
-.xpBar { background-color: #7b5ce0f3; width: 100%; }
-
-.apBar { background-color: #5c8ce0f3; width: 100%; }
-
-.statVal {
-    width: 30px;
-    font-weight: bold;
-    color:#8f74e6;
-    font-size: 20px;
-}
-
+/* Current Score display */
 .scoreRow {
     display: block;
     font-family:futura;
@@ -78,6 +79,8 @@
     border-radius: 10px;
 }
 
+/* Universal button settings 
+    Note: main.html contains the background color changes for each specific button */
 button {
     background-color: #a19ed4;
     color: #f5edf2;
@@ -94,6 +97,7 @@ button {
     
 }
 
+/* Page outside of the container holding everything */
 body{
     background-color:#d3d1f7;
     align-items:center;
